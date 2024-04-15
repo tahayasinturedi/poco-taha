@@ -1,0 +1,3 @@
+"Hello World"
+
+This is repository of my course journey. Exercises games and more...
