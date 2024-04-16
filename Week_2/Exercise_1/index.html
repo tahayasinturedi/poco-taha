@@ -3,10 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatin a Basic Website</title>
+    
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+    <title>SimpleCSS</title>
 </head>
 <body>
-    <nav>Lorem, ipsum dolor.</nav>
-    <main>Lorem ipsum dolor sit amet.</main>
+    <header>
+       <nav>
+        <ul>
+            <li><a href="#Homepage">Homepage</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Members">Members</a></li>
+            <li><a href="#Communication">Communication</a></li>
+        </ul>
+       </nav>
+    </header>
+    <h1 id="Homepage"> Enter The Loy World</h1>
+    <img src="Ana.jpg" alt="">
+    <blockquote>
+        <p>Loy Loy Loy...</p>
+        <p><cite>– Ahmet Furkan Can</cite></p>
+      </blockquote>
+
+
+    <!---------ABOUT --------------->
+    <h1 id="About">What is <strong><em>Loy Loy</em></strong></h1>
+    <article>
+        <h2><strong><em>Loy Loy</em></strong> is a way of life </h2>
+        <p> After the closing of Dark Age, men have started to become farmers and forced to stay at home. Because of some urgent demands, the art of Loy Loy emerged. Ever since men goes to field. Men work. Men returns. Men loys. Men happy. </p>
+    </article>
+
+    <!-------- MEMBERS --------->
+    <h1 id="Members" >Members</h1>
+    <h2>Emre Akburakci</h2>
+    <img src="Emre.jpeg" alt="">
+    <section >
+        <h2>What is unique about him?</h2>
+        <p>He has pure golden heart first of all. He is the Hayao Miyazaki of our world. He can define himself as a little pesimist guy but when you hang out with him, you can see he has a magical world.</p>
+        </section>
+
+    <h2>Ahmet Furkan Can</h2>
+    <img src="Afc.jpeg" alt="">
+    <section>
+        <h2>Is he an heart-breaker or hopeless romantic?</h2>
+        <p>Even though he likes to hang out limitless amount of girls, he can't be satisfied. As his own words <em><strong>"Abi bi digerini gorunce o da hosuma gidiyor."</strong></em> But we all know deep down somewhere he is dreaming of combing his love's hair on a lovely night. I don't know but He is a really great man overall.</p>
+    </section>
+    <h2>Taha Yasin Turedi</h2>
+    <img src="Taha.jpeg" alt="">
+    <section>
+        <h2>Is he an Icardi or Mecnun</h2>
+        <p>No words to say. He is a great guy...</p>
+    </section>
+
+    <!-- Communication -->
+
+    <h1 id="Communication">Do you want to be a member?</h1>
+    <form>
+        <p><strong>This is just a application form. Be cool.</strong></p>
+      
+        <p><select>
+          <option selected="selected" value="1">Title</option>
+          <option value="2">Mr</option>
+          <option value="3">Miss</option>
+          <option value="4">Mrs</option>
+          <option value="5">Other</option>
+        </select></p>
+      
+        <p>
+        <label>First name</label>
+        <input type="text" name="first_name">
+        </p>
+      
+        <p>
+        <label>Surname</label>
+        <input type="text" name="surname">
+        </p>
+      
+        <p>
+        <label>Email</label>
+        <input type="email" name="email" required="">
+        </p>
+      
+        <p>
+        <label>Enquiry type:</label>
+        <label><input name="type" type="radio" value="support" /> Support</label> 
+        <label><input name="type" type="radio" value="donation" /> Donation</label>
+        <label><input name="type" type="radio" value="application" /> Application</label>
+        </p>
+      
+        <p>
+        <label>What is your motive?</label>
+        <textarea rows="6"></textarea>
+        </p>
+      
+        <p>
+        <label>
+        <input type="checkbox" id="checkbox" value="terms">
+        I agree to the <a href="#">terms and conditions</a>
+        </label>
+        </p>
+      
+        <button>Send</button>
+        <button type="reset">Reset</button>
+        <button disabled="disabled">Disabled</button>
+    </form>
+
+    <footer>
+        <p>Author: Taha Yasin Türedi</p>
+        <p><a href="mailto:taha.turedi@powercoders.org">taha.turedi@powercoders.org</a></p>
+      </footer>
+
+
 </body>
 </html>
