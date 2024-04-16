@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Layout</title>
+</head>
+<body>
+    <hr style="border: 7px solid;
+    width: 181px;
+    margin-left: 0;">
+    <h1>Profil</h1>
+    <h3>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</h3>
+    <hr style="border: 1px solid;">
+    <form>
+        <fieldset style="border: none;">
+            <br>
+            <legend>Persönliche Daten</legend>
+            <label>Titel<input name="titel" placeholder="Dr.Inc" /></label>
+              <br>
+            <label>Vorname<input name="vorname" placeholder="Peter" /></label>
+            <br>
+            <label>Nachname<input name="nachname" placeholder="Muster" /></label>
+            <br>
+            <label name="geschlecht">Geschlecht<button>W</button><button>M</button></label>
+            <br>
+            <label name="sprache">Sprache<button>DE</button><button>FR</button><button>IT</button></label>          
+        </fieldset>
+
+        <hr style="border: 1px solid;">
+
+        <fieldset style="border: none;">
+            <br>
+            <legend>Kontaktdaten</legend>
+            <label>Telefon<input name="telefon" placeholder="Dr.Inc" /></label>
+            <br>
+            <label>Mobile<input name="mobile" placeholder="optinal" /></label>
+            <br>
+            <label>Haupnummer<input name="hauptnummer" placeholder="optinal" /></label>
+            <br> 
+            <label>Fax<input name="nachname" placeholder="optinal" /></label>
+            <br> 
+            <label>Mail 1<input name="nachname" placeholder=" " /></label>
+            <br> 
+            <label>Mail 2<input name="nachname" placeholder="optinal" /></label>
+            <br> 
+        </fieldset>
+        
+        <hr style="border: 1px solid;">
+
+        <fieldset style="border: none;">
+            <br>
+            <legend>Adressdaten</legend>
+            <label>Firma<input name="firma" placeholder=" " /></label>
+            <br>
+            <label>Zusatz Firma<input name="zfirma" placeholder="optinal" /></label>
+            <br>
+            <label>Homepage<input name="homepage" placeholder="optinal" /></label>
+            <br> 
+            <label>Adresse/Haus Nr<input name="adresse" placeholder="Musterstrasse 33" /></label>
+            <br> 
+            <label>Zusatz Adresse<input name="zuadresse" placeholder="optinal" /></label>
+            <br> 
+            <label>Postfach<input name="postfach" placeholder="optinal" /></label>
+            <br> 
+            <label>PLZ/Ort<input name="ort" placeholder="8800 Musterstadt" /></label>
+            <br> <label>Kanton/Land<input name="kanton" placeholder="ZH Schweiz" /></label>
+            <br> 
+        </fieldset>
+    </form>
+    <footer style="text-align: right;">
+        <button>Speichern</button>
+    </footer>
+    
+</body>
+</html>
