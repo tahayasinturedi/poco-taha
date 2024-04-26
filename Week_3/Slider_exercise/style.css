@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before,*::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+main ul {
+    justify-content: flex-start;
+    gap: 0;
+    overflow-x: hidden;
+}
+
+main li {
+    background: red;
+    color: white;
+    display: grid;
+    flex-shrink: 0;
+    font-size: 3rem;
+    height: 50vh;
+    place-items: center;
+    width: 100vw;
+    /*transition: transform 0.5s ease-in-out;
+    transform: translateX(-100%);*/
+}
+
+main li:first-of-type {
+    background: blue;
+}
+
+main li:last-of-type {
+    background: green;
+}
+
+
+
+
+
+/* /* html{
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+    justify-content: center;
+    overflow-x: hidden;
+    
+}
+main ul{
+    justify-content: flex-start;
+    gap: 0;
+    
+}
+
+main li{
+
+    display: grid;              
+    background-color: red;
+    font-size: 3rem;
+    color: white;
+    flex-shrink: 0;
+    height: 50vh;
+    width: 100 vw;
+    place-items: center;
+    transition: transform 0.5s ease-in-out;
+    /* transform: translateX(100vw); */
+
+
+/* main li:target{
+    /* transform: translateX(-100%); */
+/* } */
+
+/* main li:first-of-type{
+    background-color: blue;
+}
+main li:last-of-type {
+    background-color: blueviolet;
+}  */
