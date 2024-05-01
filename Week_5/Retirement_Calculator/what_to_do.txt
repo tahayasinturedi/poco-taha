@@ -1,0 +1,11 @@
+
+inputs ----- current Age - Retirement Age - Current Year
+
+outputs ----- How many years left - Retirement Year.
+
+
+1- First there should be two variables which are retirement age and current age.
+
+2- To find How many years left, It needs to subtract Current Age from Retirement Age.
+
+3- It use current Year and left years to find out in which year retirement is going to be happened. 
