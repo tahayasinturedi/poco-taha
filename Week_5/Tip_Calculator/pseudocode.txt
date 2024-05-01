@@ -1,0 +1,12 @@
+
+1- Prompt the user to enter the total bill amount.
+
+2- Prompt the user to enter the desired tip percentage.
+
+3- Calculate Tip Amount.
+
+4- Calculate Total Amount:
+
+5- Display the calculated tip amount.
+
+6- Display the total amount to be paid (including the tip).
